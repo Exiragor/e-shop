@@ -1,12 +1,5 @@
 import * as data from './products.json';
-
-export interface IProduct {
-  id: string;
-  name: string;
-  price: string;
-  picture: string;
-  tags: string[];
-}
+import { IProduct } from "@models/products";
 
 export class ProductsApi {
   products: IProduct[];
